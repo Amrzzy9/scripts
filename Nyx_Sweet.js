@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Nyxaval_sweet
-// @version      3.02
+// @version      1.1
 // @description  A ss theme made by Nyxaval
 // @author       Nyxaval(ryz.9)
 // @match        https://*.shellshock.io/*
@@ -88,16 +88,16 @@
     --ss-pink-light: #ff3aaf;
     --ss-pink-dark: #a7098c;
     --ss-brown: #7e0761e0;
-    --ss-blue00: #211353;
-    --ss-blue0: #c8edf8;
+    --ss-blue00: #351f6b;
+    --ss-blue0: #211353;
     --ss-blue1: #351382ba;
     --ss-blue2: #211353;
-    --ss-blue3: #b704ae;
+    --ss-blue3: #7134bd;
     --ss-blue4: #62065dd9;
     --ss-blue5: #211353;
     --ss-blue6: #b603ae40;
     --ss-blue7: #b603ae40;
-    --ss-blue8: #f947c5;
+    --ss-blue8: #ce98ee;
     --ss-green0: #b603ae40;
     --ss-green1: #b603ae40;
     --ss-green2: #2110;
@@ -106,9 +106,9 @@
     }
 		/* root */
 		:root {
-			--ss-lightoverlay: url('https://r4.wallpaperflare.com/wallpaper/216/846/440/mount-fuji-japan-landscape-calm-waters-wallpaper-2940880dd18afdbb0677781f2021963d.jpg');
-			--ss-popupbackground: url('https://r4.wallpaperflare.com/wallpaper/216/846/440/mount-fuji-japan-landscape-calm-waters-wallpaper-2940880dd18afdbb0677781f2021963d.jpg');
-			--ss-me-player-bg: url('https://r4.wallpaperflare.com/wallpaper/216/846/440/mount-fuji-japan-landscape-calm-waters-wallpaper-2940880dd18afdbb0677781f2021963d.jpg');
+			--ss-lightoverlay: url('https://wallpapers.com/images/high/purple-aesthetic-iphone-background-of-skyline-of-3pwt9owd4ykpiru6.webp');
+			--ss-popupbackground: url('https://wallpapers.com/images/high/purple-aesthetic-iphone-background-of-skyline-of-3pwt9owd4ykpiru6.webp');
+			--ss-me-player-bg: url('https://wallpapers.com/images/high/purple-aesthetic-iphone-background-of-skyline-of-3pwt9owd4ykpiru6.webp');
     }
     .text_blue5 {
     color: #ebebeb !important;
@@ -122,11 +122,14 @@
     box-shadow: .26em .26em 0 rgb(155 3 147 / 49%);
     }
 
-    .weapon_img {
-    background-color: #b603ae40;
-    border: var(--ss-common-border-width) solid #b603aed6;
+.weapon_img {
+    background-color: #130533;
+    border: var(--ss-common-border-width) solid #ce98ee;
     fill: #ffffff;
-   }
+}
+.egg-color-select {
+    border: .2em solid #130533;
+}
 
    .ss_button {
    border-color: #b603ae99;
@@ -160,12 +163,10 @@
     color: #ffffff;
     }
 
-    .egg-color-select {
-    background: color:;
-    }
 
     .egg-color-select {
     border: .2em solid #b603ae5c;
+
    }
 
    .stream_item a {
@@ -191,8 +192,9 @@
     background:
         radial-gradient(circle, #4f2e9e, #000000);
 ;
+
 .giveStuffPopup-content .equip_icon,.primary .equip_icon,.secondary .equip_icon {
-    filter: drop-shadow(0 1.8mm 0 rgb(21 11 45));
+    filter: drop-shadow(0 2mm 0 rgb(14 7 49))
 }
 
 .stat-wrapper .stat:nth-child(2n)>div {
@@ -200,14 +202,21 @@
 }
 
 
-       #ico-checkmark path {
-        fill: X !important;
+     .player-challenge-single-reward img{
+        width: 1em;
+        content: url("https://i.ibb.co/R6J6k3W/ico-golden-Eggggg-1.png");
         }
-        .player-challenges-container {
+
+     .player-challenges-container {
         width: X%;
-        background: #211353;
-        /*background: linear-gradient(180deg, rgba(93, 82, 196, 1) 60%, rgba(36, 42, 137, 1) 40%);*/
+        background: rgb(0, 0, 0);
+        background: linear-gradient(deg, rgba(X,X,X,X) X%, rgba(X,X,X,X) X%);
         }
+
+        #equip_grid .grid-item {
+    font-weight: 700;
+    color: #ca98f1;
+
 
   `;
 })();
