@@ -64,6 +64,7 @@
 
   document.body.appendChild(css).textContent = `
 /*--------------DO NOT EDIT ANYTHING OR IT WILL BE UR PROBLEM--------------------------------------------------*/
+
 :root {
 --select-border: #777;
     --select-focus: blue;
@@ -102,13 +103,12 @@
     --ss-green1: #b603ae40;
     --ss-green2: #2110;
     --ss-box-shadow-1: ;
-    --ss-lightbackground: linear-gradient(#b603ae38, #b603ae38);
     }
 		/* root */
 		:root {
-			--ss-lightoverlay: url('https://wallpapers.com/images/high/purple-aesthetic-iphone-background-of-skyline-of-3pwt9owd4ykpiru6.webp');
-			--ss-popupbackground: url('https://wallpapers.com/images/high/purple-aesthetic-iphone-background-of-skyline-of-3pwt9owd4ykpiru6.webp');
-			--ss-me-player-bg: url('https://wallpapers.com/images/high/purple-aesthetic-iphone-background-of-skyline-of-3pwt9owd4ykpiru6.webp');
+			--ss-lightoverlay: url('https://raw.githubusercontent.com/Amrzzy9/scripts/refs/heads/main/heaven1_upscaled.jpeg');
+			--ss-popupbackground: url('https://raw.githubusercontent.com/Amrzzy9/scripts/refs/heads/main/heaven1_upscaled.jpeg');
+			--ss-me-player-bg: url('https://raw.githubusercontent.com/Amrzzy9/scripts/refs/heads/main/heaven1_upscaled.jpeg');
     }
     .text_blue5 {
     color: #ebebeb !important;
@@ -118,26 +118,28 @@
     fill: #211353 !important;
     }
 
-    .option-box {
-    box-shadow: .26em .26em 0 rgb(155 3 147 / 49%);
+.current-screen .main-nav-item-bg, .main-menu-button:hover .main-nav-item-bg {
+    fill: #8f44d2;
     }
+
 
 .weapon_img {
     background-color: #130533;
     border: var(--ss-common-border-width) solid #ce98ee;
     fill: #ffffff;
 }
+
 .egg-color-select {
     border: .2em solid #130533;
 }
 
-   .ss_button {
-   border-color: #b603ae99;
-   }
+.ss_button {
+    border-color: #cd97ee;
+}
 
-   .btn_blue_light {
-   border-color: #b603ae99;
-   }
+.btn_blue_light {
+    border-color: #cd97ee;
+}
 
    .main-menu-button {
    color: #b603ae;
@@ -176,11 +178,10 @@
     box-shadow: 3px 3px 10px rgba(255, 0, 0, 0.5); /* Changed to red shadow */
    }
 
-   .main-nav-item-bg {
-    fill: #b704ae99;
-    stroke: #b704aec7;
-    stroke-width: var(--ss-common-border-width) !important;
-   }
+.main-nav-item-bg {
+    fill: #cd97ee;
+    stroke: #340a57;
+}
 
 .main-menu-button {
     color: #300146;
@@ -188,35 +189,24 @@
     fill: rgb(145 1 1);
    }
 
-   #equip_grid .grid-item:not(.morestuff) {
-    background:
-        radial-gradient(circle, #4f2e9e, #000000);
-;
+#equip_grid .grid-item:not(.morestuff) {
+    background: radial-gradient(circle, #d499f8, #581084db);
+}
 
 .giveStuffPopup-content .equip_icon,.primary .equip_icon,.secondary .equip_icon {
     filter: drop-shadow(0 2mm 0 rgb(14 7 49))
 }
 
 .stat-wrapper .stat:nth-child(2n)>div {
-    background-color: #462ba7;
+    background-color: #7134bd;
 }
-
-
-     .player-challenge-single-reward img{
-        width: 1em;
-        content: url("https://i.ibb.co/R6J6k3W/ico-golden-Eggggg-1.png");
-        }
+.stat-wrapper .stat:nth-child(odd)>div {
+    background-color: #7134bd !important;
+}
 
      .player-challenges-container {
         width: X%;
-        background: rgb(0, 0, 0);
-        background: linear-gradient(deg, rgba(X,X,X,X) X%, rgba(X,X,X,X) X%);
-        }
-
-        #equip_grid .grid-item {
-    font-weight: 700;
-    color: #ca98f1;
-
-
+        background: rgb(33, 19, 83);
+    }
   `;
 })();
