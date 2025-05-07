@@ -210,6 +210,9 @@
         width: X%;
         background: rgb(33, 19, 83);
     }
+    .is-paused .pause-ui-element {
+    background-color: #211353;
+    }
 
   `;
 })();
