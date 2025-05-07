@@ -213,6 +213,10 @@
     .is-paused .pause-ui-element {
     background-color: #211353;
     }
+    
+    .is-paused .pause-ui-element {
+    background-color: #211353;
+    }
 
   `;
 })();
