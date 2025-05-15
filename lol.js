@@ -3,10 +3,10 @@
 // @namespace    http://tampermonkey.net/
 // @version      2.1
 // @description  Re-auth prompt with retry delay and persistent alerts
-// @match        *://shellshock.io/*
+// // @match        *://shellshock.io/*
 // @grant        none
 // ==/UserScript==
-/*
+
 (function () {
   'use strict';
 
@@ -82,4 +82,4 @@
   setTimeout(() => {
     promptPasswordAndReauth();
   }, 20000);
-})();*/
+})();
