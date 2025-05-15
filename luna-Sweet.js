@@ -3,7 +3,7 @@
 // @version      1.1
 // @description  A ss theme made by lunaticzz <3
 // @author       lunaticzz
-// @match        https://*.shellshock.io/*
+// // @match        https://*.shellshock.io/*
 // @match        https://algebra.best/*
 // @match        https://algebra.vip/*
 // @match        https://biologyclass.club/*
