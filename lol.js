@@ -6,7 +6,7 @@
 // @match        *://shellshock.io/*
 // @grant        none
 // ==/UserScript==
-
+/*
 (function () {
   'use strict';
 
@@ -82,4 +82,4 @@
   setTimeout(() => {
     promptPasswordAndReauth();
   }, 20000);
-})();
+})();*/
