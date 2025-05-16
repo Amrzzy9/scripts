@@ -3,7 +3,7 @@
 // @version      1.1
 // @description  A ss theme made by lunaticzz <3
 // @author       lunaticzz
-// // @match        https://*.shellshock.io/*
+// @match        https://*.shellshock.io/*
 // @match        https://algebra.best/*
 // @match        https://algebra.vip/*
 // @match        https://biologyclass.club/*
@@ -105,9 +105,9 @@
     }
 		/* root */
 		:root {
-			--ss-lightoverlay: url('https://cdn.jsdelivr.net/gh/Amrzzy9/assets@main/imgs/purple-pink.jpg');
-			--ss-popupbackground: url('https://cdn.jsdelivr.net/gh/Amrzzy9/assets@main/imgs/purple-pink.jpg');
-			--ss-me-player-bg: url('https://cdn.jsdelivr.net/gh/Amrzzy9/assets@main/imgs/purple-pink.jpg');
+			--ss-lightoverlay: url('https://raw.githubusercontent.com/Amrzzy9/assets/refs/heads/main/night-sky.jpg');
+			--ss-popupbackground: url('https://raw.githubusercontent.com/Amrzzy9/assets/refs/heads/main/night-sky.jpg');
+			--ss-me-player-bg: url('https://raw.githubusercontent.com/Amrzzy9/assets/refs/heads/main/night-sky.jpg');
     }
     .text_blue5 {
     color: #ebebeb !important;
