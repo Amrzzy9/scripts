@@ -63,7 +63,7 @@
 
   document.body.appendChild(css).textContent = `
 /*--------------DO NOT EDIT ANYTHING OR IT WILL BE UR PROBLEM--------------------------------------------------*/
-
+/*
 :root {
 --select-border: #777;
     --select-focus: blue;
@@ -102,7 +102,7 @@
     --ss-green1: #b603ae40;
     --ss-green2: #2110;
     --ss-box-shadow-1: ;
-    }
+    }*/
 		/* root */
 		:root {
 			--ss-lightoverlay: url('https://r4.wallpaperflare.com/wallpaper/234/270/344/cherry-blossom-wallpaper-f9d018ad015aed6ba617d85fb03146ed.jpg');
