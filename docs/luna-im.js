@@ -1,5 +1,7 @@
-// ==UserScript==
-// @name         luna important for theme to work !!!
+// ==UserLibrary==
+// @name         luna-im
+// @version      1.2
+// @description  Shell Shockers interface mod
 // @namespace    Violentmonkey Scripts
 // @match        https://*.shellshock.io/*
 // @match        https://algebra.best/*
@@ -55,7 +57,6 @@
 // @match        https://yolk.today/*
 // @match        https://zygote.cafe/*
 // @grant        none
-// @version      1.0
 // @author       lunaticzz
 // ==/UserScript==
 
