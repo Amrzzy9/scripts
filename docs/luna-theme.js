@@ -1,6 +1,6 @@
 // ==UserScript==
-// @name         sweet-theme v1
-// @version      2
+// @name         luna-theme
+// @version      1.5
 // @description  A ss theme made by lunaticzz <3
 // @author       lunaticzz
 // @match        https://*.shellshock.io/*
