@@ -105,9 +105,9 @@
     }
 		/* root */
 		:root {
-			--ss-lightoverlay: url('https://raw.githubusercontent.com/Amrzzy9/assets/refs/heads/main/night-sky.jpg');
-			--ss-popupbackground: url('https://raw.githubusercontent.com/Amrzzy9/assets/refs/heads/main/night-sky.jpg');
-			--ss-me-player-bg: url('https://raw.githubusercontent.com/Amrzzy9/assets/refs/heads/main/night-sky.jpg');
+			--ss-lightoverlay: url('https://r4.wallpaperflare.com/wallpaper/234/270/344/cherry-blossom-wallpaper-f9d018ad015aed6ba617d85fb03146ed.jpg');
+			--ss-popupbackground: url('https://r4.wallpaperflare.com/wallpaper/234/270/344/cherry-blossom-wallpaper-f9d018ad015aed6ba617d85fb03146ed.jpg');
+			--ss-me-player-bg: url('https://r4.wallpaperflare.com/wallpaper/234/270/344/cherry-blossom-wallpaper-f9d018ad015aed6ba617d85fb03146ed.jpg');
     }
     .text_blue5 {
     color: #ebebeb !important;
