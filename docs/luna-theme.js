@@ -105,9 +105,9 @@
     }
 		/* root */
 		:root {
-			--ss-lightoverlay: url('https://r4.wallpaperflare.com/wallpaper/234/270/344/cherry-blossom-wallpaper-f9d018ad015aed6ba617d85fb03146ed.jpg');
-			--ss-popupbackground: url('https://r4.wallpaperflare.com/wallpaper/234/270/344/cherry-blossom-wallpaper-f9d018ad015aed6ba617d85fb03146ed.jpg');
-			--ss-me-player-bg: url('https://r4.wallpaperflare.com/wallpaper/234/270/344/cherry-blossom-wallpaper-f9d018ad015aed6ba617d85fb03146ed.jpg');
+			--ss-lightoverlay: url('https://wallpapercave.com/wp/wp8659763.jpg');
+			--ss-popupbackground: url('https://wallpapercave.com/wp/wp8659763.jpg');
+			--ss-me-player-bg: url('https://wallpapercave.com/wp/wp8659763.jpg');
     }
     .text_blue5 {
     color: #ebebeb !important;
